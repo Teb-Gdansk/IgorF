@@ -1,0 +1,29 @@
+
+#góra {
+    background-color: #3a7ad9;
+    text-align: center;
+    height: 50px;
+
+
+}
+#glowny {
+background-color: #88b0ec;
+height: 400px;
+width: 70%;
+float: left;
+
+}
+
+#lewy {
+background-color: #5d93e2;
+height: 400px;
+width:30%;
+float: left;
+
+}
+
+#dół {
+    background-color: #3a7ad9;
+    clear: both;
+    text-align: right;
+}
