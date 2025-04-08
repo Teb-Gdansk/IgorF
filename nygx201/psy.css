@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #ffa500;
+    text-align: center;
+}
+
+.container {
+    width: 60%;
+    margin: auto;
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 165, 0, 0.5);
+}
+
+fieldset {
+    border: 1px solid #ffa500;
+    margin: 10px 0;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+}

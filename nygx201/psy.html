@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konfiguracja Samochodu</title>
+    <link rel="stylesheet" href="psy.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Wybierz konfigurację samochodu</h1>
+        
+        <fieldset>
+            <legend>Rodzaj nadwozia</legend>
+            <input type="radio" name="nadwozie" value="hatchback" checked> Hatchback
+            <input type="radio" name="nadwozie" value="kabriolet"> Kabriolet
+            <input type="radio" name="nadwozie" value="kombi"> Kombi
+        </fieldset>
+        
+        <fieldset>
+            <legend>Rodzaj silnika</legend>
+            <select>
+                <option value="benzyna">Benzynowy</option>
+                <option value="diesel">Diesel</option>
+                <option value="elektryczny">Elektryczny</option>
+            </select>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Wyposażenie samochodu</legend>
+            <input type="checkbox" disabled> Klimatyzacja
+            <input type="checkbox" disabled checked> ESP / ABS
+            <input type="checkbox"> Skórzana tapicerka
+            <input type="checkbox"> Tempomat
+            <input type="checkbox"> Czujniki parkowania
+            <input type="checkbox"> Podgrzewane fotele
+            <input type="checkbox"> Światła LED
+        </fieldset>
+        
+        <fieldset>
+            <legend>Jakie perfumy zapachowe?</legend>
+            <select>
+                <option value="kokos">Kokos</option>
+                <option value="cytrus">Cytrus</option>
+                <option value="wanilia">Wanilia</option>
+            </select>
+        </fieldset>
+    </div>
+</body>
+</html>
