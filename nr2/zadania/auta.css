@@ -1,0 +1,30 @@
+.baner {
+  background-color: Crimson;
+  color: white;
+  text-align: center;
+  word-spacing: 30px;
+  padding: 10px;
+}
+
+#glowny1 {
+  background-color: MistyRose;
+  height: 300px;
+  padding: 10px;
+  margin: 10px 50px;
+  border: 1px solid Crimson;
+}
+
+#glowny1 img {
+  float: left;
+  height: 100%;
+}
+
+.dnia {
+  color: red;
+  text-align: center;
+}
+
+.cena {
+  text-align: center;
+  color: red;
+}
